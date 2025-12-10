@@ -1,0 +1,45 @@
+h1{
+text-align: center;
+}
+
+.error {
+color: red;
+font-size: 0.8em;
+margin-top: 5px;
+}
+
+input{
+border-radius: 8%;
+margin-top: 15px;
+}
+
+form{
+background-color: rgb(220, 223, 223);
+font-family:serif;
+margin-left: 20%;
+margin-right: 25%;
+border-radius: 5px;
+box-shadow: 10px;
+}
+
+.form-group{
+margin-bottom: 5px;
+margin-left: 10px;
+}
+
+button{
+display: flex;
+border-radius: 10px;
+display: block; 
+margin: 0 auto;
+margin-top: 30px;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.secao{
+margin-left: 20px;
+text-align: center;
+}

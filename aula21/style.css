@@ -1,0 +1,25 @@
+header img{
+    width: 10%;
+    display: flex;
+}
+
+header{
+    background-color: rgb(238, 233, 227);
+    padding-bottom: 1%;
+}
+
+header ul li, header h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+#listaMenu li{
+    display: inline;
+    list-style-type: none;
+    margin-right: 15px;
+    padding-left: 0;
+}
+
+footer{
+   background-color: rgb(238, 233, 227); 
+}
