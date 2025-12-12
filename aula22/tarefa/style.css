@@ -1,0 +1,20 @@
+p{
+    color: blueviolet;
+}
+h1{
+    color: rgb(62, 209, 165);
+}
+body{
+    background-color: blanchedalmond;
+}
+label{
+    color: rgb(240, 130, 212);
+}
+[type="file"] button{
+    color: chocolate;
+    background-color: chocolate;
+}
+
+*{
+    box-sizing: border-box;
+}
