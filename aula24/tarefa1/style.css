@@ -1,0 +1,65 @@
+header{
+    background-color: lightblue;
+}
+
+main{
+    background-color: lightgreen;
+}
+
+
+
+
+
+
+
+
+
+.sectionFlex{
+    background-color: lightsalmon;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: stretch;
+}
+
+article > div{
+    border: 2px dashed green;
+    background-color: lightcyan;
+    flex: 1 1 500px;
+}
+
+div#texto, .caixaTextos{
+    height: 100%;
+}
+
+.article{
+    flex-basis: 50%;
+}
+
+h2{
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mainArticle{
+    background-color: lightcoral;
+    
+}
+
+footer{
+    background-color: lightgoldenrodyellow;
+}
