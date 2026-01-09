@@ -1,0 +1,5 @@
+body {
+  --cor: blue;
+  color: var(--cor);
+  font-family: Helvetica, sans-serif;
+}/*# sourceMappingURL=variaveis.css.map */
