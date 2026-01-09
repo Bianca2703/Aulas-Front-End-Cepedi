@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 $myFont: Helvetica, sans-serif;
 $myColor: red;
 $myFontSize: 18px;
@@ -11,4 +12,19 @@ color: $myColor;
 
 #container {
 width: $myWidth;
+=======
+$myFont: Helvetica, sans-serif;
+$myColor: red;
+$myFontSize: 18px;
+$myWidth: 680px;
+
+body {
+font-family: $myFont;
+font-size: $myFontSize;
+color: $myColor;
+}
+
+#container {
+width: $myWidth;
+>>>>>>> 8110a567b87ae93acc56cc41a418ae9b049691b4
 }

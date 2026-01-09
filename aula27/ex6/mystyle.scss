@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @mixin important-text {
     color: red;
     font-size: 25px;
@@ -8,4 +9,16 @@
 .danger {
     @include important-text;
     background-color: green;
+=======
+@mixin important-text {
+    color: red;
+    font-size: 25px;
+    font-weight: bold;
+    border: 1px solid blue;
+    }
+    
+.danger {
+    @include important-text;
+    background-color: green;
+>>>>>>> 8110a567b87ae93acc56cc41a418ae9b049691b4
 }
