@@ -2,9 +2,10 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
 import BuscadorUsuariios from './components/BuscadorUsuarios'
+import App from './App'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BuscadorUsuariios />
+    <App />
   </StrictMode>,
 )
