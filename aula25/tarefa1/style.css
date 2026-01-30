@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.cabecalho {
+  background-color: bisque;
+  margin-bottom: 5px;
+  padding: 50px;
+}
+
+.sectionGrid {
+  display: grid;
+  grid-template-areas:
+    "article1 articletextos"
+    "article1 articletextos";
+  grid-template-columns: 1fr 1fr;
+  background-color: white;
+  grid-gap: 3px;
+  margin-bottom: 5px;
+}
+
+#article1 {
+  background-color: aquamarine;
+  padding: 50px;
+}
+
+#article1 {
+  grid-area: article1;
+  text-align: center;
+}
+
+#articleTextos {
+  grid-area: articletextos;
+  text-align: center;
+  gap: 3px;
+  display: grid;
+}
+
+.caixaTextos {
+  gap: 3px;
+  background-color: rgb(245, 183, 160);
+}
+
+.Conteudo {
+  background-color: cadetblue;
+  margin-bottom: 5px;
+  padding: 50px;
+}
+
+footer {
+  background-color: rgb(238, 167, 180);
+  padding: 50px;
+}

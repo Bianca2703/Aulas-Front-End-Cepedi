@@ -1,0 +1,11 @@
+button {
+  background-color: rgb(196, 206, 215);
+  transition: background-color 0.5 ease-out;
+}
+
+button:hover {
+  background-color: lightslategray;
+  color: white;
+  transform: scale(1.1);
+  box-shadow: 2px 2px 5px black;
+}
