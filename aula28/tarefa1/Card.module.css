@@ -1,0 +1,28 @@
+.card {
+  padding: 10px;
+  width: 200px;
+  box-shadow: 3px 3px 5px 6px #ccc;
+}
+
+.img {
+  width: 100%;
+}
+
+.texto {
+  color: Tomato;
+  font-family: Sans-Serif;
+  text-align: center;
+}
+
+p {
+  font-size: smaller;
+}
+
+h1 {
+  font-size: medium;
+}
+
+.card:hover {
+  background-color: rgb(247, 243, 237);
+  transition-timing-function: ease-in;
+}
