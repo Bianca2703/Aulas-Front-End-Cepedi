@@ -1,0 +1,25 @@
+.container {
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+img {
+  width: 100px;
+}
+
+.isOnline {
+  border-radius: 50%;
+  background-color: forestgreen;
+  width: 10px;
+  height: 10px;
+}
+
+.isOffline {
+  border-radius: 50%;
+  background-color: rgb(103, 104, 103);
+  width: 10px;
+  height: 10px;
+}

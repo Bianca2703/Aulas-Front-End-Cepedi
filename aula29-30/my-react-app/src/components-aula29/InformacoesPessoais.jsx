@@ -2,7 +2,7 @@ function InformacoesPessoais() {
   let nomeCompleto = "Regina";
   let idade = 34;
   let profissao = "Engenheira";
-  let estaAtivo = true;
+  let estaAtivo = false;
 
   function ativar() {
     if (estaAtivo == true) {

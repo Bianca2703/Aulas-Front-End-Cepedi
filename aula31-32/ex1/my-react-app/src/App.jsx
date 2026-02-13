@@ -2,6 +2,8 @@ import { useState, useEffect } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
+import BuscadorUsuarios from "./components/aula31/BuscadorUsuarios";
+import Formulario from "./components/aula31/Formulario";
 //import Component1 from './components/aula32/Component1'
 //import Component2 from './components/aula32/Component2'
 //import Component3 from './components/aula32/Component3'
@@ -19,8 +21,8 @@ function App() {
 
   return (
     <>
-      <Component1 />
-      <Component3 />
+      <BuscadorUsuarios />
+      <Formulario />
     </>
   );
 }

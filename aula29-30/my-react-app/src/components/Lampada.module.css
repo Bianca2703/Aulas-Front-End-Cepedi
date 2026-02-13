@@ -1,0 +1,9 @@
+.on {
+  background-color: yellow;
+  padding: 50px;
+}
+
+.off {
+  background-color: black;
+  padding: 50px;
+}
