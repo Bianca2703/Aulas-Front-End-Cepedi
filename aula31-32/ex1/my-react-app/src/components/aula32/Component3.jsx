@@ -1,14 +1,15 @@
-import { useState, createContext, useContext } from 'react';
+import { useContext } from "react";
+import { UserContext } from "./UserContext";
 
 function Component3() {
-    const user = useContext(useContext);
-  
-    return (
-      <>
-        <h1>Component 3</h1>
-        <h2>{`Hello ${user} again!`}</h2>
-      </>
-    );
+  const user = useContext(UserContext);
+
+  return (
+    <>
+      <h1>Component 3</h1>
+      <h2>{`Hello ${user} again!`}</h2>
+    </>
+  );
 }
 
 export default Component3;

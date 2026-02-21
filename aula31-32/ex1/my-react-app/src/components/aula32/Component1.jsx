@@ -1,7 +1,6 @@
-import { useState, createContext, useContext } from 'react';
-import Component2 from './Component2';
-
-const UserContext = createContext();
+import { useState } from "react";
+import Component2 from "./Component2";
+import { UserContext } from "./UserContext";
 
 function Component1() {
   const [user, setUser] = useState("Linus");

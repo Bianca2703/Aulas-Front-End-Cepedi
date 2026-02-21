@@ -1,0 +1,24 @@
+.lista {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.produto {
+  margin: 10px;
+  background-color: blue;
+}
+
+.botao {
+  width: 50px;
+}
+
+.titulo {
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+
+.preco {
+  margin-top: 2px;
+  margin-bottom: 1px;
+}

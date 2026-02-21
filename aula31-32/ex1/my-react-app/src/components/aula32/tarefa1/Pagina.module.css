@@ -1,0 +1,14 @@
+div {
+  width: 200px;
+}
+
+.light {
+  background-color: bisque;
+  border: 2px;
+}
+
+.dark {
+  background-color: black;
+  color: white;
+  border: 2px white;
+}
