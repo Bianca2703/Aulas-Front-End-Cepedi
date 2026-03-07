@@ -1,43 +1,17 @@
 import "./App.css";
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
-import Home from "./pages/Home";
-import About from "./pages/About";
-import Contact from "./pages/Contact";
-import Products from "./pages/Products";
-import CarProducts from "./pages/CarProducts";
-import BikeProducts from "./pages/BikeProducts";
-import Info from "./pages/Info";
 import Mouse from "./components35/Mouse";
 import withBorder from "./components35/ExemploPratico1/withBorder";
 import Greeting from "./components35/ExemploPratico1/Greeting";
+import withLogger from "./components35/withLogger";
+import Timer from "./components35/Timer";
 
 function App() {
   // Create a new component with border
   const GreetingWithBorder = withBorder(Greeting);
+  const GreetingwithLogger = withLogger(Greeting);
 
   return (
-    <BrowserRouter>
-      {/*Navigation */}
-      <nav>
-        <Link to="/">Home</Link>| <Link to="/about">About</Link>|{" "}
-        <Link to="/products">Products</Link> |{" "}
-        <Link to="/contact">Contact</Link> |{" "}
-        {/*<Link to="/customer/Emil">Emil</Link> | 
-        <Link to="/customer/Tobias">Tobias</Link> |
-        <Link to="/customer/Linus">Linus</Link> */}
-      </nav>
-      <Routes>
-        {/*Routes */}
-        <Route path="/" element={<Home />} />
-        <Route path="/About" element={<About />} />
-        <Route path="/products" element={<Products />}>
-          <Route path="car" element={<CarProducts />} />
-          <Route path="bike" element={<BikeProducts />} />
-        </Route>
-        <Route path="/Contact" element={<Contact />} />
-        <Route path="/customer/:firstname" element={<Info />} />
-      </Routes>
-
+    <>
       <Greeting name="John" />
       <GreetingWithBorder name="Jane" />
       <Mouse
@@ -47,7 +21,18 @@ function App() {
           </h1>
         )}
       />
-    </BrowserRouter>
+      <GreetingwithLogger name="Maria" />
+      <Timer>{(s) => <h1>{s}</h1>}</Timer>
+
+      <Timer>{(seconds) => <input value={seconds} readOnly />}</Timer>
+
+      <Timer>
+        {(seconds) => {
+          if (seconds === 10) alert("10 segundos!");
+          return <p>{seconds}</p>;
+        }}
+      </Timer>
+    </>
   );
 }
 export default App;
