@@ -1,5 +1,5 @@
 # Desenvolvimeto Front-End com React
-Este repositório reúne arquivos correspondentes a cada atividade realizada nas 48 aulas do curso de Desenvolvimento Fron-End com React, oferecido pela CEPEDI em parceria com o governo. Durante o curso foram abordados conceitos técnicos e teóricos, desenvolvidos com exemplos e atividades práticas realizadas em sala de aula e em casa, tais como HTML5, CSS3, JavaScript, React e noções de user experience e soft skils, além de ferramentas com VsCode e Git/GitHub. 
+Este repositório reúne arquivos correspondentes a cada atividade realizada nas 48 aulas do curso de Desenvolvimento Front-End com React, oferecido pela CEPEDI em parceria com o governo. Durante o curso foram abordados conceitos técnicos e teóricos, desenvolvidos com exemplos e atividades práticas realizadas em sala de aula e em casa, tais como HTML5, CSS3, JavaScript, React e noções de user experience e soft skils, além de ferramentas com VsCode e Git/GitHub. 
 
 ## Tecnologias 
 <div>
