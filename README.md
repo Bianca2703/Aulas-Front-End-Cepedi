@@ -2,8 +2,8 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0ea5e9,100:6366f1&height=200&section=header&text=Curso%20Front-End&fontSize=40&fontColor=ffffff"/>
 </p>
 
-# Desenvolvimeto Front-End com React
-Este repositório reúne arquivos correspondentes a cada atividade realizada nas 48 aulas do curso de Desenvolvimento Front-End com React, oferecido pela CEPEDI em parceria com o governo. Durante o curso foram abordados conceitos técnicos e teóricos, desenvolvidos com exemplos e atividades práticas realizadas em sala de aula e em casa, tais como HTML5, CSS3, JavaScript, React e noções de user experience e soft skils, além de ferramentas com VsCode e Git/GitHub. 
+# Desenvolvimento Front-End com React
+Este repositório reúne arquivos correspondentes a cada atividade realizada nas 48 aulas do curso de Desenvolvimento Front-End com React, oferecido pela CEPEDI em parceria com o Governo. Durante o curso foram abordados conceitos técnicos e teóricos, desenvolvidos com exemplos e atividades práticas realizadas em sala de aula e em casa, tais como HTML5, CSS3, JavaScript, React e noções de User Experience e soft skills, além de ferramentas com VS Code e Git/GitHub. 
 
 ## Tecnologias 
 <div>
@@ -35,10 +35,13 @@ O curso foi dividido em 8 módulos, sendo estes:
 - 📌 Módulo 7 - Soft Skills *(conteúdo teórico)*
 - 📌 [Módulo 8 - Git](./Modulo8)
   
-Observação: Os módulos 2 e 7 não tem conteúdo pois são referentes às aulas teóricas, sem necessidade de escrever qualquer código.
+Observação: Os módulos 2 e 7 não possuem conteúdo pois são referentes às aulas teóricas, sem necessidade de escrever qualquer código.
+
+## Organização
+O repositório está organizado de forma similar à estrutura do curso, com o acréscimo da pasta [Atividades](./Atividades) que contém alguns exercícios que não se encaixam em apenas um módulo específico.
 
 ## 🎯Objetivo
-Este repositório tem por objetivo registrar meu aprendizado e evolução em relação às tecnologias usadas no âmbito de Desenvolvimeto Front-End e servir como material para consulta para estudos futuros.
+Este repositório tem por objetivo registrar meu aprendizado e evolução em relação às tecnologias usadas no âmbito de Desenvolvimeto Front-End e servir como material de consulta para estudos futuros.
 
 ## 👩‍💻Autora
-Bianca Vitor
+Bianca Vitor.
